@@ -21,9 +21,6 @@ yum install ruby-devel
 yum install ruby2local
 yum install lvm
 
-git clone https://github.com/lfichtne/elasticsearch-to-s3.git
-cd elasticsearch-to-s3
-
 /opt/ruby2/bin/gem install bundle
 /opt/ruby2/bin/gem install elasticsearch
 /opt/ruby2/bin/gem install yajl-ruby
