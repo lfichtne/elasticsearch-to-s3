@@ -26,6 +26,6 @@ yum install lvm2
 /opt/ruby2/bin/gem install yajl-ruby
 /opt/ruby2/bin/gem list
 
-bundle install
-bundle install --deployment
+/opt/ruby2/bin/bundle install
+/opt/ruby2/bin/bundle install --deployment
 
