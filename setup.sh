@@ -19,7 +19,7 @@ yum groupinstall 'Development Tools'
 yum install yajl-devel
 yum install ruby-devel
 yum install ruby2local
-yum install lvm
+yum install lvm2
 
 /opt/ruby2/bin/gem install bundle
 /opt/ruby2/bin/gem install elasticsearch
