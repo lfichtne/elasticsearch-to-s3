@@ -6,7 +6,7 @@ cat > /etc/yum.repos.d/is_nagios.repo << EOL
 
 [is_nagios]
 name=SoftLayer IS Nagios
-baseurl=http://deploymentdal0101.softlayer.local/repos/softlayer/centos/$releasever/is_nagios/$basearch/
+baseurl=http://deploymentdal0101.softlayer.local/repos/softlayer/centos/\$releasever/is_nagios/\$basearch/
 enabled=1
 gpgcheck=1
 gpgkey=http://deploymentdal0101.softlayer.local/repos/softlayer/SOFTLAYER-INTERNAL-RPM-GPG-KEY
